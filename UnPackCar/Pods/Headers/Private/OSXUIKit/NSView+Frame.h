@@ -1,1 +1,1 @@
-../../../../../../OSXUIKit/OSXUIKit/Classes/Base/NSView+Frame.h
+../../../OSXUIKit/OSXUIKit/Classes/Base/NSView+Frame.h

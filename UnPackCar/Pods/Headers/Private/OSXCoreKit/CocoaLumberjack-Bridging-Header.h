@@ -1,1 +1,1 @@
-../../../../../../OSXCoreKit/OSXCoreKit/Classes/CocoaLumberjack-Bridging-Header.h
+../../../OSXCoreKit/OSXCoreKit/Classes/CocoaLumberjack-Bridging-Header.h

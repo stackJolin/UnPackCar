@@ -1,1 +1,1 @@
-../../../../../../OSXCoreKit/OSXCoreKit/Classes/Constant/ReplaceMe.h
+../../../OSXCoreKit/OSXCoreKit/Classes/Constant/ReplaceMe.h

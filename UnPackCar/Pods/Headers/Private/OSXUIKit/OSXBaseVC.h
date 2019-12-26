@@ -1,1 +1,1 @@
-../../../../../../OSXUIKit/OSXUIKit/Classes/Base/OSXBaseVC.h
+../../../OSXUIKit/OSXUIKit/Classes/Base/OSXBaseVC.h

@@ -3,32 +3,29 @@ PODS:
     - CocoaLumberjack/Core (= 3.6.0)
   - CocoaLumberjack/Core (3.6.0)
   - Masonry (1.1.0)
-  - OSXCoreKit (1.1.1)
-  - OSXUIKit (1.1.1)
+  - OSXCoreKit (1.1.2)
+  - OSXUIKit (1.1.2)
 
 DEPENDENCIES:
   - CocoaLumberjack
   - Masonry
-  - OSXCoreKit (from `../../OSXCoreKit`)
-  - OSXUIKit (from `../../OSXUIKit`)
+  - OSXCoreKit (= 1.1.2)
+  - OSXUIKit (= 1.1.2)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - CocoaLumberjack
     - Masonry
-
-EXTERNAL SOURCES:
-  OSXCoreKit:
-    :path: "../../OSXCoreKit"
-  OSXUIKit:
-    :path: "../../OSXUIKit"
+  https://github.com/stackJolin/STSpec.git:
+    - OSXCoreKit
+    - OSXUIKit
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  OSXCoreKit: fae8dd80c0f2b17b8447ae7296e983b24bbd6791
-  OSXUIKit: b689a697b362595122c2457c9fae8ae44a424c42
+  OSXCoreKit: fe2cd6e9e81e3e096f7f222ed4450fd8abcd2563
+  OSXUIKit: d4896c75c599b511bbfa749b7c3ad1d10784e3dc
 
-PODFILE CHECKSUM: 2767faf5a8a950581575d703803865309d947fe3
+PODFILE CHECKSUM: 677fc12aa1dae7b58bb0756ddf48d521b7a49f27
 
 COCOAPODS: 1.8.3

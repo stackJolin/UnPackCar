@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/stackJolin/OSXCoreKit.git'
+source 'https://github.com/stackJolin/STSpec.git'
 
 platform :osx, '10.13'
 
@@ -9,8 +9,8 @@ inhibit_all_warnings!
 target 'UnPackCar' do
 #  pod 'OSXUIKit', :path => "../../OSXUIKit"
 #  pod 'OSXCoreKit', :path => "../../OSXCoreKit"
-  pod 'OSXUIKit', "1.1.1"
-  pod 'OSXCoreKit', "1.1.1"
+  pod 'OSXUIKit', "1.1.2"
+  pod 'OSXCoreKit', "1.1.2"
   pod 'Masonry'
   pod 'CocoaLumberjack'
 end
