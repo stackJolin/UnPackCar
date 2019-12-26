@@ -1,0 +1,6 @@
+module OSXCoreKit {
+  umbrella header "OSXCoreKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

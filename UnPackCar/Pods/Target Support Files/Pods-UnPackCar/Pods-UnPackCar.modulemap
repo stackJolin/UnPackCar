@@ -1,0 +1,6 @@
+module Pods_UnPackCar {
+  umbrella header "Pods-UnPackCar-umbrella.h"
+
+  export *
+  module * { export * }
+}

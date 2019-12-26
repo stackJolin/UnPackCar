@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68F63303DEB4889E54A04F89 /* libPods-UnPackCar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B473B54BB19AF2E266A745B /* libPods-UnPackCar.a */; };
+		893738CC23B3931500B41B58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 893738CB23B3931500B41B58 /* AppDelegate.m */; };
+		893738CF23B3931500B41B58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893738CE23B3931500B41B58 /* ViewController.m */; };
+		893738D123B3931700B41B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893738D023B3931700B41B58 /* Assets.xcassets */; };
+		893738D423B3931700B41B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893738D223B3931700B41B58 /* Main.storyboard */; };
+		893738D723B3931700B41B58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 893738D623B3931700B41B58 /* main.m */; };
+		893738DF23B394DE00B41B58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893738DE23B394DE00B41B58 /* Foundation.framework */; };
+		893738E123B394FB00B41B58 /* CoreUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893738E023B394FB00B41B58 /* CoreUI.framework */; };
+		893738E323B3951800B41B58 /* CarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 893738E223B3951800B41B58 /* CarTool.m */; };
+		893738F423B3981400B41B58 /* CarDragFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 893738F323B3981400B41B58 /* CarDragFileManager.m */; };
+		8937392923B4D00400B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8937392723B4D00200B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		794FF6E3520187D041E945D9 /* Pods-UnPackCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnPackCar.debug.xcconfig"; path = "Target Support Files/Pods-UnPackCar/Pods-UnPackCar.debug.xcconfig"; sourceTree = "<group>"; };
+		893738C723B3931500B41B58 /* UnPackCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnPackCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		893738CA23B3931500B41B58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		893738CB23B3931500B41B58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		893738CD23B3931500B41B58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		893738CE23B3931500B41B58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		893738D023B3931700B41B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		893738D323B3931700B41B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		893738D523B3931700B41B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893738D623B3931700B41B58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		893738D823B3931700B41B58 /* UnPackCar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnPackCar.entitlements; sourceTree = "<group>"; };
+		893738DE23B394DE00B41B58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		893738E023B394FB00B41B58 /* CoreUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreUI.framework; path = ../../../../../System/Library/PrivateFrameworks/CoreUI.framework; sourceTree = "<group>"; };
+		893738E223B3951800B41B58 /* CarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTool.m; sourceTree = "<group>"; };
+		893738F223B3981400B41B58 /* CarDragFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarDragFileManager.h; sourceTree = "<group>"; };
+		893738F323B3981400B41B58 /* CarDragFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarDragFileManager.m; sourceTree = "<group>"; };
+		8937391B23B4A68300B41B58 /* UnPackCar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnPackCar-Bridging-Header.h"; sourceTree = "<group>"; };
+		8937392723B4D00200B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProgressIndicator+ESSProgressIndicatorCategory.m"; sourceTree = "<group>"; };
+		8937392823B4D00300B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProgressIndicator+ESSProgressIndicatorCategory.h"; sourceTree = "<group>"; };
+		8B473B54BB19AF2E266A745B /* libPods-UnPackCar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnPackCar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D331CAF6A0CA79199D0CC321 /* Pods-UnPackCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnPackCar.release.xcconfig"; path = "Target Support Files/Pods-UnPackCar/Pods-UnPackCar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893738C423B3931500B41B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893738E123B394FB00B41B58 /* CoreUI.framework in Frameworks */,
+				893738DF23B394DE00B41B58 /* Foundation.framework in Frameworks */,
+				68F63303DEB4889E54A04F89 /* libPods-UnPackCar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4299BF635DD5FA2B64A4397D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				794FF6E3520187D041E945D9 /* Pods-UnPackCar.debug.xcconfig */,
+				D331CAF6A0CA79199D0CC321 /* Pods-UnPackCar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6AD77C49E4AA221FC6C2AB5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				893738E023B394FB00B41B58 /* CoreUI.framework */,
+				893738DE23B394DE00B41B58 /* Foundation.framework */,
+				8B473B54BB19AF2E266A745B /* libPods-UnPackCar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		893738BE23B3931500B41B58 = {
+			isa = PBXGroup;
+			children = (
+				893738C923B3931500B41B58 /* UnPackCar */,
+				893738C823B3931500B41B58 /* Products */,
+				4299BF635DD5FA2B64A4397D /* Pods */,
+				6AD77C49E4AA221FC6C2AB5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		893738C823B3931500B41B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893738C723B3931500B41B58 /* UnPackCar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		893738C923B3931500B41B58 /* UnPackCar */ = {
+			isa = PBXGroup;
+			children = (
+				8937392823B4D00300B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.h */,
+				8937392723B4D00200B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.m */,
+				893738EE23B3977D00B41B58 /* DragTool */,
+				893738E223B3951800B41B58 /* CarTool.m */,
+				893738CA23B3931500B41B58 /* AppDelegate.h */,
+				893738CB23B3931500B41B58 /* AppDelegate.m */,
+				893738CD23B3931500B41B58 /* ViewController.h */,
+				893738CE23B3931500B41B58 /* ViewController.m */,
+				893738D023B3931700B41B58 /* Assets.xcassets */,
+				893738D223B3931700B41B58 /* Main.storyboard */,
+				893738D523B3931700B41B58 /* Info.plist */,
+				893738D623B3931700B41B58 /* main.m */,
+				893738D823B3931700B41B58 /* UnPackCar.entitlements */,
+			);
+			path = UnPackCar;
+			sourceTree = "<group>";
+		};
+		893738EE23B3977D00B41B58 /* DragTool */ = {
+			isa = PBXGroup;
+			children = (
+				893738F223B3981400B41B58 /* CarDragFileManager.h */,
+				893738F323B3981400B41B58 /* CarDragFileManager.m */,
+				8937391B23B4A68300B41B58 /* UnPackCar-Bridging-Header.h */,
+			);
+			path = DragTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		893738C623B3931500B41B58 /* UnPackCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893738DB23B3931700B41B58 /* Build configuration list for PBXNativeTarget "UnPackCar" */;
+			buildPhases = (
+				839EBEF8958DA68600E93F97 /* [CP] Check Pods Manifest.lock */,
+				893738C323B3931500B41B58 /* Sources */,
+				893738C423B3931500B41B58 /* Frameworks */,
+				893738C523B3931500B41B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnPackCar;
+			productName = UnPackCar;
+			productReference = 893738C723B3931500B41B58 /* UnPackCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893738BF23B3931500B41B58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = houlin;
+				TargetAttributes = {
+					893738C623B3931500B41B58 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 893738C223B3931500B41B58 /* Build configuration list for PBXProject "UnPackCar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893738BE23B3931500B41B58;
+			productRefGroup = 893738C823B3931500B41B58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893738C623B3931500B41B58 /* UnPackCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893738C523B3931500B41B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893738D123B3931700B41B58 /* Assets.xcassets in Resources */,
+				893738D423B3931700B41B58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		839EBEF8958DA68600E93F97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnPackCar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893738C323B3931500B41B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893738E323B3951800B41B58 /* CarTool.m in Sources */,
+				893738CF23B3931500B41B58 /* ViewController.m in Sources */,
+				8937392923B4D00400B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.m in Sources */,
+				893738D723B3931700B41B58 /* main.m in Sources */,
+				893738F423B3981400B41B58 /* CarDragFileManager.m in Sources */,
+				893738CC23B3931500B41B58 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		893738D223B3931700B41B58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893738D323B3931700B41B58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		893738D923B3931700B41B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		893738DA23B3931700B41B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		893738DC23B3931700B41B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794FF6E3520187D041E945D9 /* Pods-UnPackCar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = UnPackCar/UnPackCar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TJM4S4U7K6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = UnPackCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.zhuhoulin.com.UnPackCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UnPackCar/DragTool/UnPackCar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		893738DD23B3931700B41B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D331CAF6A0CA79199D0CC321 /* Pods-UnPackCar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = UnPackCar/UnPackCar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TJM4S4U7K6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = UnPackCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.zhuhoulin.com.UnPackCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UnPackCar/DragTool/UnPackCar-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893738C223B3931500B41B58 /* Build configuration list for PBXProject "UnPackCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893738D923B3931700B41B58 /* Debug */,
+				893738DA23B3931700B41B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893738DB23B3931700B41B58 /* Build configuration list for PBXNativeTarget "UnPackCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893738DC23B3931700B41B58 /* Debug */,
+				893738DD23B3931700B41B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 893738BF23B3931500B41B58 /* Project object */;
+}
