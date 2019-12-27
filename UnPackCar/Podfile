@@ -9,6 +9,8 @@ inhibit_all_warnings!
 target 'UnPackCar' do
 #  pod 'OSXUIKit', :path => "../../OSXUIKit"
 #  pod 'OSXCoreKit', :path => "../../OSXCoreKit"
+#  pod 'OSXAlert', :path => "../../OSXAlert"
+  pod 'OSXAlert', "1.1.1"
   pod 'OSXUIKit', "1.1.2"
   pod 'OSXCoreKit', "1.1.2"
   pod 'Masonry'

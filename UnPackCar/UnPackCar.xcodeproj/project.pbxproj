@@ -17,7 +17,6 @@
 		893738E123B394FB00B41B58 /* CoreUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893738E023B394FB00B41B58 /* CoreUI.framework */; };
 		893738E323B3951800B41B58 /* CarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 893738E223B3951800B41B58 /* CarTool.m */; };
 		893738F423B3981400B41B58 /* CarDragFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 893738F323B3981400B41B58 /* CarDragFileManager.m */; };
-		8937392923B4D00400B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8937392723B4D00200B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +37,6 @@
 		893738F223B3981400B41B58 /* CarDragFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarDragFileManager.h; sourceTree = "<group>"; };
 		893738F323B3981400B41B58 /* CarDragFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarDragFileManager.m; sourceTree = "<group>"; };
 		8937391B23B4A68300B41B58 /* UnPackCar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnPackCar-Bridging-Header.h"; sourceTree = "<group>"; };
-		8937392723B4D00200B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProgressIndicator+ESSProgressIndicatorCategory.m"; sourceTree = "<group>"; };
-		8937392823B4D00300B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProgressIndicator+ESSProgressIndicatorCategory.h"; sourceTree = "<group>"; };
 		8B473B54BB19AF2E266A745B /* libPods-UnPackCar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnPackCar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D331CAF6A0CA79199D0CC321 /* Pods-UnPackCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnPackCar.release.xcconfig"; path = "Target Support Files/Pods-UnPackCar/Pods-UnPackCar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,8 +95,6 @@
 		893738C923B3931500B41B58 /* UnPackCar */ = {
 			isa = PBXGroup;
 			children = (
-				8937392823B4D00300B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.h */,
-				8937392723B4D00200B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.m */,
 				893738EE23B3977D00B41B58 /* DragTool */,
 				893738E223B3951800B41B58 /* CarTool.m */,
 				893738CA23B3931500B41B58 /* AppDelegate.h */,
@@ -223,7 +218,6 @@
 			files = (
 				893738E323B3951800B41B58 /* CarTool.m in Sources */,
 				893738CF23B3931500B41B58 /* ViewController.m in Sources */,
-				8937392923B4D00400B41B58 /* NSProgressIndicator+ESSProgressIndicatorCategory.m in Sources */,
 				893738D723B3931700B41B58 /* main.m in Sources */,
 				893738F423B3981400B41B58 /* CarDragFileManager.m in Sources */,
 				893738CC23B3931500B41B58 /* AppDelegate.m in Sources */,

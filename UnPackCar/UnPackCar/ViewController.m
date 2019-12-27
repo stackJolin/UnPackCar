@@ -12,6 +12,7 @@
 #import <OSXCoreKit/NSColor+OSXExtension.h>
 #import <Masonry/Masonry.h>
 #import <OSXCoreKit/NSObject+_RT.h>
+#import <OSXAlert/OSXAlert.h>
 
 @interface ViewController()
 
@@ -202,14 +203,22 @@
 }
 
 - (void)showSuccess:(NSString *)path {
-    NSAlert *alert = [NSAlert new];
-    alert.alertStyle =  NSAlertStyleInformational;
-    alert.messageText = @"Success";
-    [alert addButtonWithTitle:@"OK"];
-    alert.informativeText = path;
-    [alert beginSheetModalForWindow:self.view.window completionHandler:^(NSModalResponse returnCode) {
+    SysAlert
+    .title(@"Success")
+    .message(path)
+    .addAction(@"OK", ^{
         
-    }];
+    })
+    .showInWindow(self.view.window);
+    
+//    NSAlert *alert = [NSAlert new];
+//    alert.alertStyle =  NSAlertStyleInformational;
+//    alert.messageText = @"Success";
+//    [alert addButtonWithTitle:@"OK"];
+//    alert.informativeText = path;
+//    [alert beginSheetModalForWindow:self.view.window completionHandler:^(NSModalResponse returnCode) {
+//
+//    }];
 }
 
 @end

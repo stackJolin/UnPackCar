@@ -3,12 +3,14 @@ PODS:
     - CocoaLumberjack/Core (= 3.6.0)
   - CocoaLumberjack/Core (3.6.0)
   - Masonry (1.1.0)
+  - OSXAlert (1.1.1)
   - OSXCoreKit (1.1.2)
   - OSXUIKit (1.1.2)
 
 DEPENDENCIES:
   - CocoaLumberjack
   - Masonry
+  - OSXAlert (= 1.1.1)
   - OSXCoreKit (= 1.1.2)
   - OSXUIKit (= 1.1.2)
 
@@ -17,15 +19,17 @@ SPEC REPOS:
     - CocoaLumberjack
     - Masonry
   https://github.com/stackJolin/STSpec.git:
+    - OSXAlert
     - OSXCoreKit
     - OSXUIKit
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  OSXAlert: 922b7b245df43153cc5106ea880cc9285c5ddaaa
   OSXCoreKit: fe2cd6e9e81e3e096f7f222ed4450fd8abcd2563
   OSXUIKit: d4896c75c599b511bbfa749b7c3ad1d10784e3dc
 
-PODFILE CHECKSUM: 677fc12aa1dae7b58bb0756ddf48d521b7a49f27
+PODFILE CHECKSUM: cffcd1783221ebc4d351c8f8f2989f19df3a46e1
 
 COCOAPODS: 1.8.3
